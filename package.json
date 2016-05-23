@@ -1,0 +1,42 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "'this is my gulp for stydying'",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --progress --colors --profile --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hualiwa/webpack_self.git"
+  },
+  "author": "'hualiwa'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hualiwa/webpack_self/issues"
+  },
+  "homepage": "https://github.com/hualiwa/webpack_self",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.10.2",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-react": "^5.1.1",
+    "fs": "0.0.2",
+    "gulp-sass": "^2.3.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.7.0",
+    "path": "^0.12.7",
+    "react": "^15.0.2",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
